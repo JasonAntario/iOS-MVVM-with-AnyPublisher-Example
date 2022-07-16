@@ -11,6 +11,9 @@
 		7491A0462879ED30005E661F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A0452879ED30005E661F /* ContentView.swift */; };
 		7491A0482879ED32005E661F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7491A0472879ED32005E661F /* Assets.xcassets */; };
 		7491A04B2879ED32005E661F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7491A04A2879ED32005E661F /* Preview Assets.xcassets */; };
+		7491A0522879EDDC005E661F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A0512879EDDC005E661F /* Model.swift */; };
+		7491A0542879EFB2005E661F /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A0532879EFB2005E661F /* WeatherAPI.swift */; };
+		7491A0562879F47F005E661F /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A0552879F47F005E661F /* TempViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		7491A0452879ED30005E661F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7491A0472879ED32005E661F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7491A04A2879ED32005E661F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7491A0512879EDDC005E661F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7491A0532879EFB2005E661F /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		7491A0552879F47F005E661F /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				7491A0452879ED30005E661F /* ContentView.swift */,
 				7491A0472879ED32005E661F /* Assets.xcassets */,
 				7491A0492879ED32005E661F /* Preview Content */,
+				7491A0512879EDDC005E661F /* Model.swift */,
+				7491A0552879F47F005E661F /* TempViewModel.swift */,
+				7491A0532879EFB2005E661F /* WeatherAPI.swift */,
 			);
 			path = MVVM_publisher_test;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7491A0522879EDDC005E661F /* Model.swift in Sources */,
+				7491A0542879EFB2005E661F /* WeatherAPI.swift in Sources */,
+				7491A0562879F47F005E661F /* TempViewModel.swift in Sources */,
 				7491A0462879ED30005E661F /* ContentView.swift in Sources */,
 				7491A0442879ED30005E661F /* MVVM_publisher_testApp.swift in Sources */,
 			);
